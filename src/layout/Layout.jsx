@@ -14,7 +14,8 @@ export const Layout = ({ children }) => {
       <Navbar/>
       <div className='wrap'>
         <Back/>
-        <AnimatePresence exitBeforeEnter>
+       <div className='flex-box'>
+       <AnimatePresence exitBeforeEnter>
           <motion.div
             initial={{ y: 10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -27,6 +28,7 @@ export const Layout = ({ children }) => {
           </Card>
         </motion.div>
         </AnimatePresence>
+       </div>
       </div>  
     </LayoutContain>
   )
