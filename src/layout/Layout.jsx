@@ -13,21 +13,21 @@ export const Layout = ({ children, display }) => {
       <Navbar/>
       <div className='wrap'>
         <Back/>
-        <div className='card_contain'>
-          <Card display={display}>
-            <AnimatePresence exitBeforeEnter>
-              <motion.div
-                initial={{ y: 10, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                exit={{ y: -10, opacity: 0 }}
-                transition={{ duration: 0.2 }}
-                className='card_contain'
-              >
-                {children}
-              </motion.div>
-            </AnimatePresence>
+       <div className='flex-box'>
+       <AnimatePresence exitBeforeEnter>
+          <motion.div
+            initial={{ y: 10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: -10, opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className='card_contain'
+          >
+          <Card>
+            {children}
           </Card>
-        </div>
+        </motion.div>
+        </AnimatePresence>
+       </div>
       </div>  
     </LayoutContain>
   )
