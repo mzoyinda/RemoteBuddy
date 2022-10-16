@@ -1,10 +1,17 @@
 import React from "react";
 import styled from "styled-components";
+<<<<<<< HEAD
 import Logo from "../assets/maxi-logo.png";
 import Spark from "../assets/lightening.png";
 import Sun from "../assets/sun.png";
 import Remote from '../assets/onboard.png';
 import { motion} from "framer-motion"
+=======
+import Logo from "assets/maxi-logo.png";
+import Spark from "assets/lightening.png";
+import Sun from "assets/sun.png";
+import Remote from 'assets/onboard.png';
+>>>>>>> origin/main
 
 const Login = () => {
   return (
