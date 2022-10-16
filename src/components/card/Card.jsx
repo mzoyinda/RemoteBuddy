@@ -1,6 +1,6 @@
 import React from 'react'
 import { CardContainer } from './styles'
-import buddy from 'assets/buddy.png'
+import buddy from 'assets/buddy.svg'
 
 const Card = () => {
 
