@@ -9,4 +9,12 @@ export const CardContainer = styled.div`
     position: relative;
     top: 4rem;
     left: 6.9rem;
+
+    .buddy {
+        width: 134px;
+        height: 134px;
+        position: relative;
+        top: 15px;
+        left: 9px;
+    }
 `
