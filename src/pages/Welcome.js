@@ -22,7 +22,11 @@ const Welcome = () => {
 const Input = styled.input`
 border:none;
 width:70%;
+padding:1rem;
 border-bottom: 1px solid #828282;
+:active{
+  border: 2px solid var(--mainGreen);
+}
 `
 
 export default Welcome

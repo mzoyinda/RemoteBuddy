@@ -11,17 +11,18 @@ const Meetings = () => {
           Do you have any Meeting or Activity you'd like me to remind you of today?
         </h3>
         <FlexBox>
-            <Link to="/add-meeting"> 
+            <Link to="shorturl.at/lqzKV"> 
           <button type="button">
             Yes, I do
           </button>
             </Link>
-          <Link to="/music-choice"> 
+          <Link to="shorturl.at/lqzKV"> 
         <button type="button" className="white-button">
           No 
         </button>
           </Link>
         </FlexBox>
+        <p>Note: Screen continues at Figma</p>
       </Container>
     </Layout>
   );
