@@ -7,15 +7,14 @@ import styled from "styled-components";
 const Welcome = () => {
 
   return (
-    <Layout>
-        <Container>
-            <h3 className='text'>Hi, i'm Buddy, What should i call you?</h3>
-            <Input type="text" /> 
-            <button type='button'>
-            <Link to='/remind'> Got it!</Link>
-            </button> 
+    <Layout display={false}>
+      <Container>
+        <h3 className='text'>Hi, i'm Buddy, What should i call you?</h3>
+        <Input type="text" /> 
+        <button type='button'>
+          <Link to='/remind'> Got it!</Link>
+        </button> 
         </Container>
-
     </Layout>
   )
 }
