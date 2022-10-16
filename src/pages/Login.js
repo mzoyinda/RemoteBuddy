@@ -1,18 +1,37 @@
 import React from "react";
 import styled from "styled-components";
+<<<<<<< HEAD
+import Logo from "../assets/maxi-logo.png";
+import Spark from "../assets/lightening.png";
+import Sun from "../assets/sun.png";
+import Remote from '../assets/onboard.png';
+import { motion} from "framer-motion"
+=======
 import Logo from "assets/maxi-logo.png";
 import Spark from "assets/lightening.png";
 import Sun from "assets/sun.png";
 import Remote from 'assets/onboard.png';
+>>>>>>> origin/main
 
 const Login = () => {
   return (
-    <Container>
+    <Container    className="box"    >
+        
       <SideBar>
         <img src={Spark} alt="spark" className="spark" />
         <img src={Logo} alt="maxi-logo" className="logo" />
       </SideBar>
       <MainField>
+        <motion.div
+             initial={{ opacity: 0, scale: 0.5 }}
+             animate={{ opacity: 1, scale: 1 }}
+             transition={{
+               duration: 0.8,
+               delay: 0.5,
+               ease: [0, 0.71, 0.2, 1.01]
+             }}
+        >
+
         <Hello>
           <p>HELLO, Remote Worker .</p>
           <img src={Sun} alt="sun" className="sun" />
@@ -25,6 +44,7 @@ const Login = () => {
         <ImgContainer>
         <img src={Remote} alt="lady working on laptop" />
         </ImgContainer>
+</motion.div>
       </MainField>
     </Container>
   );
@@ -45,12 +65,12 @@ position: relative;
   justify-content: center;
 
   .logo {
-    width: 376px;
+    width: 75%;
   }
 
   .spark {
     position: absolute;
-    width: 142.5px;
+    width: 25%;
     right: 0;
     top: 0;
   }
