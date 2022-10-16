@@ -17,4 +17,9 @@ export const CardContainer = styled.div`
         top: 15px;
         left: 9px;
     }
+
+    .rest {
+        width: 620px;
+        height: auto;
+    }
 `
