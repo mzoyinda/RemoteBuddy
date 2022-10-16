@@ -1,9 +1,9 @@
 import React from 'react'
-import { ChooseContainer } from './styles'
 import mack from 'assets/audiomack.png'
 import boom from 'assets/boomplay.png'
 import spotify from 'assets/spotify.png'
 import youtube from 'assets/youtube.png'
+import { ChooseContainer } from './styles'
 import { Layout } from 'layout/Layout'
 import { Link } from 'react-router-dom'
 
