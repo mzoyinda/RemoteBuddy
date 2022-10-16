@@ -4,7 +4,8 @@ import Logo from "assets/maxi-logo.png";
 import Spark from "assets/lightening.png";
 import Sun from "assets/sun.png";
 import Remote from 'assets/onboard.png';
-import motion from "framer-motion"
+import { motion } from "framer-motion"
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -25,19 +26,21 @@ const Login = () => {
              }}
         >
 
-        <Hello>
-          <p>HELLO, Remote Worker .</p>
-          <img src={Sun} alt="sun" className="sun" />
-        </Hello>
-        <h1>Welcome to Remote Buddy!</h1>
-        <Action>
-          <p>Lets help you track your day</p>
-          <button>Lets go ! </button>
-        </Action>
-        <ImgContainer>
-        <img src={Remote} alt="lady working on laptop" />
-        </ImgContainer>
-</motion.div>
+          <Hello>
+            <p>HELLO, Remote Worker .</p>
+            <img src={Sun} alt="sun" className="sun" />
+          </Hello>
+          <h1>Welcome to Remote Buddy!</h1>
+          <Action>
+            <p>Lets help you track your day</p>
+            <button>
+              <Link to='/choose'>Lets go ! </Link>
+            </button>
+          </Action>
+          <ImgContainer>
+            <img src={Remote} alt="lady working on laptop" />
+          </ImgContainer>
+        </motion.div>
       </MainField>
     </Container>
   );
@@ -103,12 +106,17 @@ font-size: 1rem;
 
 button{
 background: #76BF4D;
-color: white;
 border: transparent;
 padding: 0.5rem 2.3rem;
 margin-left: 1rem;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 8px;
+cursor: pointer;
+
+a {
+  color: white;
+  
+  }
 }
 `;
 

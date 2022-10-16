@@ -3,6 +3,7 @@ import Navbar from 'components/navbar/Navbar'
 import { LayoutContain } from './styles'
 import { Back } from 'components/button/Back'
 import background from 'assets/background.png'
+import Card from 'components/card/Card'
 
 export const Layout = ({ children }) => {
 
@@ -12,7 +13,9 @@ export const Layout = ({ children }) => {
       <div className='wrap'>
         <Back/>
         <div className='card_contain'>
-          {children}
+          <Card>
+            {children}
+          </Card>
         </div>
       </div>  
     </LayoutContain>
