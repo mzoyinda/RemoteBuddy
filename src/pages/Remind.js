@@ -2,7 +2,6 @@ import React from 'react'
 import { Container } from './styles'
 import { Layout } from 'layout/Layout'
 import { Link } from "react-router-dom";
-import styled from "styled-components";
 
 const Remind = () => {
 
