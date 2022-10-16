@@ -8,6 +8,9 @@ Remote buddy is a time tracking system designed to help remote workers keep tabs
 ### UI Design - Figma
 [Figma Design](https://www.figma.com/file/o2VgXJandg2pOsoWc9xtox/Hackfest-2.0?node-id=171%3A874)
 
+### GoDaddy Domain
+[remote-buddy.co](https://remote-buddy.co/)
+
 
 ### Getting Started
 In the project directory, you can run:
