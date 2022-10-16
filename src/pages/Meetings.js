@@ -10,12 +10,12 @@ const Meetings = () => {
           Do you have any Meeting or Activity you'd like me to remind you of today?
         </h3>
         <FlexBox>
-            <a href="shorturl.at/fFQ46"> 
+            <a href="https://shorturl.at/fFQ46"> 
           <button type="button">
             Yes, I do
           </button>
             </a>
-          <a href="shorturl.at/lpGTX"> 
+          <a href="https://shorturl.at/lpGTX"> 
         <button type="button" className="white-button">
           No 
         </button>
