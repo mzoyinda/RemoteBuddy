@@ -10,7 +10,7 @@ export const Container = styled.div`
   height: 193px;
   position: relative;
   left: 12rem;
-
+  
   .text {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -21,7 +21,7 @@ export const Container = styled.div`
     align-items: center;
     color: #000000;
   }
-
+  
   button {
     width: 173px;
     height: 39px;
@@ -37,7 +37,7 @@ export const Container = styled.div`
     padding: 10px;
     gap: 10px;
     margin-top: 20px;
-
+    
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -46,11 +46,11 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     text-align: center;
-    color: #f6f6ff;
-
-    a {
-      color: white;
-    }
+    /* color: #f6f6ff;     */
+  }
+  
+  a {
+    color: white !important;;
   }
 
   .white-button {
@@ -58,10 +58,10 @@ export const Container = styled.div`
     border-radius: 8px;
     color: var(--mainBlack);
     background-color: var(--mainWhite);
+  }
 
-    a {
-        color: var(--mainBlack);
-    }
+  a.white-button{
+      color: var(--mainBlack) !important;
   }
 
   .line_contain {

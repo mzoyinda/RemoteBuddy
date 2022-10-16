@@ -33,9 +33,11 @@ const Login = () => {
           <h1>Welcome to Remote Buddy!</h1>
           <Action>
             <p>Lets help you track your day</p>
-            <button>
-              <Link to='/welcome'>Lets go ! </Link>
-            </button>
+              <Link to='/welcome'>
+                  <button>
+                      Lets go ! 
+                  </button>
+                </Link>
           </Action>
           <ImgContainer>
             <img src={Remote} alt="lady working on laptop" />
