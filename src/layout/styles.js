@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import background from 'assets/background.png'
 
 export const LayoutContain = styled.div`
     width: 100%;
@@ -9,5 +10,18 @@ export const LayoutContain = styled.div`
         height: calc(100vh - 77px);
         background-color: var(--mainGrey);
         display: block;
+        opacity: 0.4;
+
+        .card_contain {
+            width: 987.15px;
+            height: 625.49px;
+            position: relative;
+            left: 18rem;
+            top: 0rem;
+            background-image: url(${background});
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center top;
+        }
     }
 `
