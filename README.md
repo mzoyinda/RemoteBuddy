@@ -3,10 +3,10 @@
 Remote buddy is a time tracking system designed to help remote workers keep tabs on their day to day life and work activities while maintaining a good work-life balance.
 
 ### Live Preview
-[Remote Buddy]("https://remotebuddy.netlify.app/")
+[Remote Buddy](https://remotebuddy.netlify.app/)
 
 ### UI Design - Figma
-[Figma Design]("https://www.figma.com/file/o2VgXJandg2pOsoWc9xtox/Hackfest-2.0?node-id=171%3A874")
+[Figma Design](https://www.figma.com/file/o2VgXJandg2pOsoWc9xtox/Hackfest-2.0?node-id=171%3A874)
 
 
 ### Getting Started
