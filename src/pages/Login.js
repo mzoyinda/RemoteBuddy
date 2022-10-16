@@ -126,4 +126,5 @@ img{
     width: 50%;
 }
 `;
+
 export default Login;
