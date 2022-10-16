@@ -4,7 +4,7 @@ import Logo from "assets/maxi-logo.png";
 import Spark from "assets/lightening.png";
 import Sun from "assets/sun.png";
 import Remote from 'assets/onboard.png';
-import motion from "framer-motion"
+import {motion } from "framer-motion"
 
 const Login = () => {
   return (
@@ -118,4 +118,5 @@ img{
     width: 50%;
 }
 `;
+
 export default Login;
