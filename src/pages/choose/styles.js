@@ -7,7 +7,7 @@ export const ChooseContainer = styled.div`
     padding: 0px;
     gap: 28px;
     width: 374px;
-    height: 193px;
+    height: 352px;
     position: relative;
     left: 12rem;
 
@@ -46,7 +46,10 @@ export const ChooseContainer = styled.div`
         display: flex;
         align-items: center;
         text-align: center;
-        color: #F6F6FF;
+        
+        a {
+            color: #F6F6FF;
+        }
     }
 
     .line_contain {

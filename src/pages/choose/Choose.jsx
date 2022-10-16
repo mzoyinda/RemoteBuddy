@@ -5,15 +5,16 @@ import boom from 'assets/boomplay.png'
 import spotify from 'assets/spotify.png'
 import youtube from 'assets/youtube.png'
 import { Layout } from 'layout/Layout'
+import { Link } from 'react-router-dom'
 
 const Choose = () => {
 
   return (
-    <Layout>
+    <Layout display={true}>
         <ChooseContainer>
             <h3 className='text'>Jane, would you like to</h3>
             <button type='button'>
-                Use our music Library
+                <Link to='/playlist'>Use our music Library</Link>
             </button>
             <div className='line_contain'>
                 <div className='line'></div>

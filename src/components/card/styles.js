@@ -5,7 +5,8 @@ export const CardContainer = styled.div`
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
     width: 761px;
-    height: 469px;
+    height: auto;
+    /* height: ${(props) => (props.height ? props.height : '469px')}; */
     position: relative;
     top: 4rem;
     left: 6.9rem;
@@ -16,10 +17,11 @@ export const CardContainer = styled.div`
         position: relative;
         top: 15px;
         left: 9px;
+        display: ${(props) => (props.display === true ? 'block' : 'none')};
     }
 
     .rest {
-        width: 620px;
+        width: auto;
         height: auto;
     }
 `

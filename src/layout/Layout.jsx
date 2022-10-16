@@ -5,7 +5,7 @@ import { Back } from 'components/button/Back'
 import background from 'assets/background.png'
 import Card from 'components/card/Card'
 
-export const Layout = ({ children }) => {
+export const Layout = ({ children, display }) => {
 
   return (
     <LayoutContain background={background}>
@@ -13,7 +13,7 @@ export const Layout = ({ children }) => {
       <div className='wrap'>
         <Back/>
         <div className='card_contain'>
-          <Card>
+          <Card display={display}>
             {children}
           </Card>
         </div>

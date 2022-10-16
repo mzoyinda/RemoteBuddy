@@ -2,15 +2,15 @@ import React from 'react'
 import { CardContainer } from './styles'
 import buddy from 'assets/buddy.png'
 
-const Card = ({ children }) => {
+const Card = ({ children, display, height }) => {
 
   return (
-    <CardContainer>
+    <CardContainer display={display} height={height}>
         <div className='buddy'>
-            <img alt='RemoteBuddy' src={buddy}/>
+          <img alt='RemoteBuddy' src={buddy}/>
         </div>
         <div className='rest'>
-            {children}
+          {children}
         </div>
     </CardContainer>
   )
