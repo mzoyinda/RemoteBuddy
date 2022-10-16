@@ -14,19 +14,19 @@ export const Layout = ({ children, display }) => {
       <div className='wrap'>
         <Back/>
        <div className='flex-box'>
-       <AnimatePresence exitBeforeEnter>
-          <motion.div
-            initial={{ y: 10, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ y: -10, opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className='card_contain'
-          >
-          <Card>
-            {children}
-          </Card>
-        </motion.div>
-        </AnimatePresence>
+        <AnimatePresence exitBeforeEnter>
+            <motion.div
+              initial={{ y: 10, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: -10, opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className='card_contain'
+            >
+            <Card>
+              {children}
+            </Card>
+          </motion.div>
+          </AnimatePresence>
        </div>
       </div>  
     </LayoutContain>
