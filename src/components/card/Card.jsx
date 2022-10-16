@@ -1,6 +1,6 @@
 import React from 'react'
 import { CardContainer } from './styles'
-import buddy from 'assets/buddy.svg'
+import buddy from 'assets/buddy.png'
 
 const Card = ({ children }) => {
 
@@ -9,7 +9,7 @@ const Card = ({ children }) => {
         <div className='buddy'>
             <img alt='RemoteBuddy' src={buddy}/>
         </div>
-        <div className=''>
+        <div className='rest'>
             {children}
         </div>
     </CardContainer>

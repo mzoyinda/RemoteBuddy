@@ -10,7 +10,6 @@ export const LayoutContain = styled.div`
         height: calc(100vh - 77px);
         background-color: var(--mainGrey);
         display: block;
-        opacity: 0.4;
 
         .card_contain {
             width: 987.15px;
