@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, FlexBox } from "./styles";
 import { Layout } from "layout/Layout";
-import { Link } from "react-router-dom";
 
 const Meetings = () => {
   return (
