@@ -36,8 +36,7 @@ export const Container = styled.div`
     align-items: center;
     padding: 10px;
     gap: 10px;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -46,22 +45,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     text-align: center;
-    /* color: #f6f6ff;     */
-  }
-  
-  a {
-    color: white !important;;
-  }
-
-  .white-button {
-    border: 1px solid #76bf4d;
-    border-radius: 8px;
-    color: var(--mainBlack);
-    background-color: var(--mainWhite);
-  }
-
-  a.white-button{
-      color: var(--mainBlack) !important;
+    color:white;
   }
 
   .line_contain {
@@ -114,7 +98,14 @@ export const Container = styled.div`
 
 export const FlexBox = styled.div`
   display: flex;
-  button + button {
+  .white-button{
+    border: 1px solid #76bf4d;
+    border-radius: 8px;
+    background-color: var(--mainWhite);
+    color: var(--mainBlack);
+  }
+
+  a+a {
     margin-left: 1rem;
   }
 `;

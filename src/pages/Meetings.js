@@ -11,12 +11,16 @@ const Meetings = () => {
           Do you have any Meeting or Activity you'd like me to remind you of today?
         </h3>
         <FlexBox>
+            <Link to="/add-meeting"> 
           <button type="button">
-            <Link to="/add-meeting"> Yes, I do</Link>
+            Yes, I do
           </button>
+            </Link>
+          <Link to="/music-choice"> 
         <button type="button" className="white-button">
-          <Link to="/music-choice"> No </Link>
+          No 
         </button>
+          </Link>
         </FlexBox>
       </Container>
     </Layout>
