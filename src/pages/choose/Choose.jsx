@@ -1,20 +1,19 @@
 import React from 'react'
+import { Container } from '../styles'
 import mack from 'assets/audiomack.png'
 import boom from 'assets/boomplay.png'
 import spotify from 'assets/spotify.png'
 import youtube from 'assets/youtube.png'
-import { ChooseContainer } from './styles'
 import { Layout } from 'layout/Layout'
-import { Link } from 'react-router-dom'
 
 const Choose = () => {
 
   return (
-    <Layout display={true}>
-        <ChooseContainer>
+    <Layout>
+        <Container>
             <h3 className='text'>Jane, would you like to</h3>
             <button type='button'>
-                <Link to='/playlist'>Use our music Library</Link>
+                Use our music Library
             </button>
             <div className='line_contain'>
                 <div className='line'></div>
@@ -36,7 +35,7 @@ const Choose = () => {
                     <img alt='Youtube' src={youtube}/>
                 </div>
             </div>
-        </ChooseContainer>
+        </Container>
     </Layout>
   )
 }

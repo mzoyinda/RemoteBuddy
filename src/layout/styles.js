@@ -14,21 +14,19 @@ export const LayoutContain = styled.div`
             display: flex;
             justify-content: center;
             align-items: center;
-            width: auto;
-            height: auto;
-            background-image: url(${background});
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center top;
 
         }
 
         .card_contain {
-            width: auto;
-            height: auto;
+            width: 987.15px;
+            height: 625.49px;
             /* position: relative;
             left: 18rem;
             top: 0rem; */
+            background-image: url(${background});
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center top;
         }
     }
 `
