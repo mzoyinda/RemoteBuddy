@@ -1,5 +1,5 @@
 import React from 'react'
-import { ChooseContainer } from './styles'
+import { Container } from '../styles'
 import mack from 'assets/audiomack.png'
 import boom from 'assets/boomplay.png'
 import spotify from 'assets/spotify.png'
@@ -10,7 +10,7 @@ const Choose = () => {
 
   return (
     <Layout>
-        <ChooseContainer>
+        <Container>
             <h3 className='text'>Jane, would you like to</h3>
             <button type='button'>
                 Use our music Library
@@ -35,7 +35,7 @@ const Choose = () => {
                     <img alt='Youtube' src={youtube}/>
                 </div>
             </div>
-        </ChooseContainer>
+        </Container>
     </Layout>
   )
 }

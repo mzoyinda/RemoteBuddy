@@ -34,7 +34,7 @@ const Login = () => {
           <Action>
             <p>Lets help you track your day</p>
             <button>
-              <Link to='/choose'>Lets go ! </Link>
+              <Link to='/welcome'>Lets go ! </Link>
             </button>
           </Action>
           <ImgContainer>
