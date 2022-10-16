@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import Logo from "../assets/maxi-logo.png";
-import Spark from "../assets/lightening.png";
-import Sun from "../assets/sun.png";
-import Remote from '../assets/onboard.png';
+import Logo from "assets/maxi-logo.png";
+import Spark from "assets/lightening.png";
+import Sun from "assets/sun.png";
+import Remote from 'assets/onboard.png';
 
 const Login = () => {
   return (
